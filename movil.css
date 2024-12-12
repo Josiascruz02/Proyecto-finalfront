@@ -1,0 +1,161 @@
+@media screen and (max-width:480px){
+  h2{
+    font-family:'Poppins';
+    font-size: 35px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 10px;
+  }
+  p{
+    font-family:'Montserrat';
+    font-size: 14px;
+    color: #fff;
+  }
+  .top-bar{
+    display: none;
+  }
+
+  .slideflechas_info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform:translate(-50%, -50%);
+    max-width: 600px;
+    color: white;
+    text-align: center;
+    line-height: 0;
+  }
+  .slideflechas_info p{
+    font-family:'Montserrat';
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #151515;
+    display: none;
+  }
+  .slideflechas_info h2{
+    font-family:'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 5px;
+  }
+  .slideflechas_info h1{
+    font-family:'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 5px;
+  }
+
+  .btn_pestaña1 {
+    max-width: 80px;
+    background-color: #619f7b;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .rslides_nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: #4D4E50;
+    text-decoration: none;
+    font-size: 0;
+  }
+
+  .rslides_nav.prev {
+    width: 20px;
+    height: 20px;
+    background-color: #619f7b;
+    border-radius: 50px;
+  }
+  .rslides_nav.next {
+    right: 1px;
+    width: 20px;
+    height: 20px;
+    background-color: #619f7b;
+    border-radius: 50px;
+  }
+
+  /*Contenedor ordena*/
+  .contendor_ordena{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .contendor_ordena article{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    text-align:center;
+    background-color: #F3F3F3;
+    margin-left: 0;
+  }
+  .contendor_ordena article figure{
+    max-width: 300px;
+    overflow: hidden;
+  }
+  .cont_textoordena{
+    width: 50%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 2.5;
+  }
+
+  .contenedor_galerygrid {
+  display: grid;
+  margin: 0%;
+  grid-gap:15px;
+  grid-template: repeat(4, auto) / repeat(1, auto);
+  grid-template-areas: "campo" "naranja lago verdura";
+  margin-bottom: 650px;
+}
+
+  /*contenedor grid ventas con transition*/
+  .seccion_imgs {
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template: repeat(4, auto) / repeat(2, auto);
+    grid-template-areas:
+
+    "manzana piña"
+    "fresa fresa"
+    "granada melon"
+    "pera limon"
+  }
+
+
+  /*carrosuel*/
+  .contenedor_botones{
+    max-width: 380px;
+    padding: 20px 15px 20px 20px;
+    position: absolute;
+    top: 100%;
+    left:30%;
+    margin: auto;
+  }
+
+  .contenidomodal {
+    max-width: 800px;
+    max-height: 500px;
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 20px;
+    border: 1px solid #888;
+    overflow: auto;
+    height: 90vh;
+    border-radius: 10px;
+  }
+
+}

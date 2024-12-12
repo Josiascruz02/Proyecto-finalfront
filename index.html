@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="tablet.css">
+  <link rel="stylesheet" href="movil.css">
+  <link rel="stylesheet" href="carrousel.css">
+  <link rel="stylesheet" href="fancybox.css">
+  <link rel="stylesheet" href="animate.css">
+  <script src="wow.min.js"></script>
+  <script src="fancybox.js"></script>
+  <script src="https://kit.fontawesome.com/bd50cea79c.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="responsiveslides.js"></script>
+  <title>Proyecto</title>
+</head>
+<body>
+  <div class="top-bar">
+    <p>Opening hours: Monday - Friday: 08AM-06PM</p>
+    <div class="carrito">
+      <p>Your Cart is Empty</p>
+      <i class="wow animate__animated animate__pulse animate__infinite fa-solid fa-cart-plus"></i>
+    </div>
+    </div>
+    <header class="principal">
+      <div class="container_logo">
+        <figure>
+          <img src="imagenes/logo.png" alt="">
+        </figure>
+      </div>
+      <div class="boxmenu">
+        <a href="#" id="iconomenu">
+          <i class="fas fa-bars fa-1x"></i>
+        </a>
+      </div>
+      <nav id="contenedormenu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#galeria">GALLERY</a></li>
+          <li><a href="#contenidoblog">BLOG</a></li>
+          <li><a href="#compra">SHOP</a></li>
+          <li><a href="#contactos">CONTACT US</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="slideflechas">
+      <ul class="rslides">
+        <li><img src="imagenes/slide-1.jpg" alt=""></li>
+        <li><img src="imagenes/slide-2.jpg" alt=""></li>
+      </ul>
+      <div class="slideflechas_info">
+        <p class="wow animate__animated animate__bounceInLeft">SUMMER DISCOUNTS UP TO 40%</p>
+        <h1 class="wow animate__animated animate__bounceInLeft">A WIDE VARIETY</h1>
+        <h2 class="wow animate__animated animate__bounceInLeft">OF DIFFERENT</h2>
+        <h2 class="wow animate__animated animate__bounceInLeft">FRUITS</h2>
+        <a href="" class="btn_pestaña1 slide_left">SHOW NOW</a>
+      </div>
+      <div class="slideflechas_filtro"></div>
+    </section>
+
+    <section class="contendor_ordena wow animate__animated animate__fadeInLeft">
+        <article>
+          <figure>
+            <img src="imagenes/ordena1.png">
+          </figure>
+          <div class="cont_textoordena">
+            <h2>ORDER</h2>
+            <h3>OUR FRUIT BOX</h3>
+            <p>From $89.00</p>
+            <div class="botonordena">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+      </article>
+      <article id="colorazul">
+        <figure>
+          <img src="imagenes/ordena2.png">
+        </figure>
+        <div class="cont_textoordena">
+          <h2>ORDER</h2>
+          <h3>SMOOTHIES</h3>
+          <p>FROM $37.00</p>
+          <div class="botonordena">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+    </article>
+    <article>
+      <figure>
+        <img src="imagenes/ordena3.png">
+      </figure>
+      <div class="cont_textoordena">
+        <h2>ORDER</h2>
+        <h3>SUMMER OFERTS</h3>
+        <p>FROM $25.00</p>
+        <div class="botonordena">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+  </article>
+    </section>
+
+    <section class="contenedor_blog">
+      <figure>
+        <img src="imagenes/blog.jpg" alt="">
+      </figure>
+      <section class="articulo_blog wow animate__animated animate__rotateInDownRight ">
+        <h2>WHY ORGANIC?</h2>
+        <br>
+        <div class="cont_textoblog">
+          <article>
+            <i class="fa-solid fa-spray-can-sparkles"></i>
+            <p>NO PESTICIDES</p>
+            <P>Our farming technologies are designed to avoid any pesticides in the fruits we offer.</P>
+          </article>
+          <article>
+            <i class="fa-solid fa-wheat-awn"></i>
+            <p>100% ORGANIC</p>
+            <P>We deliver our products always fresh & organic so that you could enjoy your meal.</P>
+          </article>
+          <article>
+            <i class="fa-regular fa-lemon"></i>
+            <p>ALWAYS FRESH</p>
+            <P>farm combines modern technologies, innovations, and trusted farming traditions.</P>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section class="contenedor_productosnue" id="compra">
+      <br>
+      <h2>NEW PRODUCTS</h2>
+    <div class="contenedor_transform_cards">
+      <article class="contenedor_transform_art wow animate__animated animate__fadeInLeft">
+        <figure>
+          <img src="imagenes/producto2.png" alt="">
+        </figure>
+        <br>
+        <p>STRAWBERRIES</p>
+        <br>
+        <p id="verde">$15.00</p>
+        <div class="botonproductos wow animate__animated animate__pulse animate__infinite">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </article>
+
+      <article class="contenedor_transform_art wow animate__animated animate__fadeInLeft">
+        <figure>
+          <img src="imagenes/producto1.png" alt="">
+        </figure>
+        <br>
+        <p>BANANAS</p>
+        <br>
+        <p id="verde">$22.00</p>
+        <div class="botonproductos wow animate__animated animate__pulse animate__infinite">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </article>
+      <article class="contenedor_transform_art wow animate__animated animate__fadeInRight animate__delay-1s">
+        <figure>
+          <img src="imagenes/producto3.png" alt="">
+        </figure>
+        <br>
+        <p>MELONS</p>
+        <br>
+        <p id="verde">$19.00</p>
+        <div class="botonproductos wow animate__animated animate__pulse animate__infinite">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </article>
+      <article class="contenedor_transform_art wow animate__animated animate__fadeInRight animate__delay-1s">
+        <figure>
+          <img src="imagenes/producto4.png" alt="">
+        </figure>
+        <br>
+        <p>PINEAPPLES</p>
+        <br>
+        <p id="verde">$18.00</p>
+        <div class="botonproductos wow animate__animated animate__pulse animate__infinite">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </article>
+    </div>
+    <br>
+    </section>
+
+    <section class="contenedor_prinpestaña">
+      <article class="article_pestana1">
+        <p id="letraverdetab">BEST FRUITS SINCE 1999</p>
+        <br><br>
+        <h2>OUR FARM</h2>
+        <br><br>
+        <h3>WHO WE ARE</h3>
+        <br><br>
+        <ul class="tabs">
+          <li><a href="#tab1">ABOUT</a></li>
+          <li><a href="#tab2">OUR MISSION</a></li>
+          <li><a href="#tab3">OUR VISION</a></li>
+        </ul>
+
+        <div class="tab_container">
+          <div class="tab_content" id="tab1">
+            <br>
+            <p>Since its foundation, Orange has been offering best organic fruits for local residents, fruit markets, and guests.
+            We are dedicated your healthy food standards.</p>
+          </div>
+        </div>
+        <div class="tab_container">
+          <div class="tab_content" id="tab2">
+            <br>
+            <p>Our mission is to grow profitably through innovation and operational  fresh produce for all local shops, markets, and residents. Lorem ipsum dolor sit amet consectetur, adipisicing consectetur </p>
+          </div>
+        </div>
+        <div class="tab_container">
+          <div class="tab_content" id="tab3">
+            <p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                <li>Donec id turpis non ipsum tincidunt .</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <br><br>
+        <div  id="boton" class="btn_pestaña1 slide_left wow animate__animated animate__pulse animate__infinite"> <a href="#" class="btn_modal" id="boton_modal">VIEW MORE</a></div>
+      </article>
+
+      <section class="galerygrid contenedor_galerygrid">
+        <a href="imagenes/about-1-634x373.jpg" data-fancybox="gallery" data-caption="Campo natural">
+          <figure class="img1">
+            <img src="imagenes/about-1-634x373.jpg" alt="">
+          </figure>
+        </a>
+        <a href="imagenes/about-2-634x373.jpg" data-fancybox="gallery" data-caption="Fruta fresca">
+          <figure class="img2">
+            <img src="imagenes/about-2-634x373.jpg" alt="">
+          </figure>
+        </a>
+        <a href="imagenes/about-3-634x373.jpg" data-fancybox="gallery" data-caption="Lugares naturales">
+          <figure class="img3">
+            <img src="imagenes/about-3-634x373.jpg" alt="">
+          </figure>
+        </a>
+        <a href="imagenes/about-4-634x373.jpg" data-fancybox="gallery" data-caption="Verduras frescas">
+          <figure class="img4">
+            <img src="imagenes/about-4-634x373.jpg" alt="">
+          </figure>
+        </a>
+      </section>
+    </section>
+  
+    <section class="contenedor_gridventas" id="galeria">
+      <br>
+      <h2>GALLERY</h2>
+      <br>
+      <p id="gris">Take a look at organic fruits that we offer on a regular basis.</p>
+      <br>
+      <section class="seccion_imgs wow animate__animated animate__bounceInUp animate__delay-1s">
+        <figure class="img1 banner">
+          <img src="imagenes/gridpera.jpg" alt="">
+          <div class="info">
+            <p>PEARS</p>
+            <p id="verde">$16.99</p>
+            <div class="iconosgridventas">
+              <div class="botonproductos">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <div class="botonproductos">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </figure>
+      
+        <figure class="img2 banner">
+          <img src="imagenes/gridfresa.jpg" alt="">
+          <div class="info">
+            <p>STRAWBERRIES</p>
+            <p id="verde">$17.99</p>
+            <div class="iconosgridventas">
+              <div class="botonproductos">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <div class="botonproductos">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </figure>
+      
+        <figure class="img3 banner">
+          <img src="imagenes/gridpiña.jpg" alt="">
+          <div class="info">
+            <p>PINEAPPLES</p>
+            <p id="verde">$12.99</p>
+            <div class="iconosgridventas">
+              <div class="botonproductos">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <div class="botonproductos">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </figure>
+      
+        <figure class="img4 banner">
+          <img src="imagenes/gridmelon.jpg" alt="">
+          <div class="info">
+            <p>GALIA MELONS</p>
+            <p id="verde">$12.99</p>
+            <div class="iconosgridventas">
+              <div class="botonproductos">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <div class="botonproductos">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </figure>
+      
+        <figure class="img5 banner">
+          <img src="imagenes/gridgranada.jpg" alt="">
+          <div class="info">
+            <p>MELONS</p>
+            <p id="verde">$11.99</p>
+            <div class="iconosgridventas">
+              <div class="botonproductos">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <div class="botonproductos">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </figure>
+      
+        <figure class="img6 banner">
+          <img src="imagenes/gridmanzana.jpg" alt="">
+          <div class="info">
+            <p>APPLES</p>
+            <p id="verde">$9.99</p>
+            <div class="iconosgridventas">
+              <div class="botonproductos">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <div class="botonproductos">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </figure>
+      
+        <figure class="img7 banner">
+          <img src="imagenes/gridlimon.jpg" alt="">
+          <div class="info">
+            <p>LEMONS</p>
+            <p id="verde">$18.99</p>
+            <div class="iconosgridventas">
+              <div class="botonproductos">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <div class="botonproductos">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </figure>
+      </section>
+      <br><br>
+    </section>
+
+  <section class="contenedor_carousel">
+    <h2>OUR TEAM</h2>
+    <br>
+    <section  id="carousel">
+      <section class="cards_personas" id="slide-container">
+        <article class="slide" data-slideIndex="0">
+          <figure>
+            <img src="imagenes/team1.jpg" alt="">
+          </figure>
+          <br>
+          <h3>JAMES ANDERSON</h3>
+          <p>James is the farm owner & founder who deals with strategic decisions.</p>
+          <div class="iconosteam">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </article>
+        <article class="slide" data-slideIndex="1">
+          <figure>
+            <img src="imagenes/team2.jpg" alt="">
+          </figure>
+          <br>
+          <h3>REBBECA MARTINEZ</h3>
+          <p>Rebecca is our sales manager who likes to promote the benefits of organic food.</p>
+          <div class="iconosteam">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </article>
+        <article class="slide" data-slideIndex="2">
+          <figure>
+            <img src="imagenes/team3.jpg" alt="">
+          </figure>
+          <br>
+          <h3>SAM WILLIAMS</h3>
+          <p>Sam is our leading fruit processing expert with over 20 years of experience.</p>
+          <div class="iconosteam">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </article>
+        <article class="slide" data-slideIndex="3">
+          <figure>
+            <img src="imagenes/team4.jpg" alt="">
+          </figure>
+          <br>
+          <h3>DENILSON NUÑEZ</h3>
+          <p> Denilson, with over two decades of expertise, is the leading fruit expert in our team.</p>
+          <div class="iconosteam">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </article>
+      </section>
+      <section class="contenedor_botones">
+        <div class="botones">
+          <a id="back-button" class="arrow back">
+            <i class="fa-solid">&#60;
+            </i>
+          </a>
+          <a id="forward-button" class="arrow forward">
+            <i class="fa-solid">&#62;
+            </i>
+          </a>
+        </div>
+      </section>
+  </section>
+  </section>
+
+  <section class="contenedor_parallax" id="contactos">
+    <br>
+    <h2>CONTACT US</h2>
+    <br>
+    <article class="fotoparallaxs">
+      <div class="textoparallax">
+        <h3>STAY</h3>
+        <br>
+        <h3>CONNECTED</h3>
+        <br>
+        <p>We are industry-leading organic farm delivering the best products
+          that boost your daily life energy and potential.</p>
+      </div>
+        <div class="degradado"></div>
+      </article>
+
+      <article class="formulario wow animate__animated animate__fadeInDown animate__delay-1s">
+        <br>
+        <h3>GET IN TOUCH</h3>
+        <form id="contactForm" onsubmit="return validateForm()">
+  
+          <div>
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+              <span class="error" id="firstNameError"></span>
+          </div>
+  
+ 
+          <div>
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
+              <span class="error" id="lastNameError"></span>
+          </div>
+  
+          <div>
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Enter your e-mail">
+              <span class="error" id="emailError"></span>
+          </div>
+
+          <div>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+              <span class="error" id="phoneError"></span>
+          </div>
+  
+
+          <div style="grid-column: span 2;">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+              <span class="error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="slide_left">SEND MESSAGE</button>
+      </form>
+      </article>
+      <br><br>
+  </section>
+
+<section class="contenedor_blog_dos" id="contenidoblog">
+  <h2>OUR BLOG</h2>
+  <br>
+  <p id="gris">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque accusantium placeat, dolor</p>
+  <br>
+  <div class="container_scale_cards">
+    <article class="cards_informacion">
+      <div class="informacion_scale">
+        <h5>NEWS</h5>
+        <h4>Lemons & Limes: Why They are Especially Tasty in Winter</h4>
+        <p>August 9, 2020</p>
+      </div>
+      <figure class="scalezoom">
+        <img src="imagenes/zoom1.jpg" alt="">
+      </figure>
+    </article>
+
+    <article class="cards_informacion">
+      <div class="informacion_scale">
+        <h5>NEWS</h5>
+        <h4>Lemons & Limes: Why They are Especially Tasty in Winter</h4>
+        <p>August 9, 2020</p>
+      </div>
+      <figure class="scalezoom">
+        <img src="imagenes/zoom2.jpg" alt="">
+      </figure>
+    </article>
+  </div>
+  <br><br><br><br>
+</section>
+
+<section class="contenedor_acordeon">
+  <h2>NEWS</h2>
+  <br><br>
+  <div class="acordeon_titulo">
+    <h3>12 Tasty Organic Fruits to Choose This Summer</h3>
+    <i class="fa-solid fa-circle-arrow-down"></i>
+  </div>
+
+  <article class="acordeon_contenedor2">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae, quam ea magni inventore, corporis quasi earum facilis voluptatum similique nemo! Corporis, ad. Illum vero odit unde eligendi cupiditate magni!
+    Dolor accusantium possimus error cumque adipisci quod, ipsum blanditiis animi fugiat sed exercitationem facere quas vero hic assumenda! Cupiditate sequi atque fuga magnam quam ut aperiam minus totam, deleniti doloremque!
+    Fugiat molestias sit laudantium animi, ex vitae natus quod
+  </p>
+  </article>
+
+  <div class="acordeon_titulo ">
+    <h3>Top 5 Healthy Recipes with Our Farm’s Organic Fruits</h3>
+    <i class="fa-solid fa-circle-arrow-down"></i>
+  </div>
+
+  <article class="acordeon_contenedor2 ">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae, quam ea magni inventore, corporis quasi earum facilis voluptatum similique nemo! Corporis, ad. Illum vero odit unde eligendi cupiditate magni!
+
+  </article>
+
+  <div class="acordeon_titulo ">
+    <h3>15 Refreshing & Organic Fruit Drinks You’ll Definitely Enjoy</h3>
+    <i class="fa-solid fa-circle-arrow-down"></i>
+  </div>
+
+  <article class="acordeon_contenedor2 ">
+  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, ad, eos ipsam quas cum laborum minima animi quae voluptas numquam, eveniet veritatis consequatur. Officiis illum autem architecto! Veniam, nam eligendi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, est! Veniam voluptatum tempora quas necessitatibus commodi temporibus odio modi illo fuga impedit. Vitae, similique enim nostrum blanditiis totam aut eum!
+  </p>
+  </article>
+
+</section>
+
+<section class="contenedor_testimonios">
+  <h2>TESTIMONIALS</h2>
+  <section class="container_filter">
+    <article class="container_article" id="foto1" >
+      <figure>
+        <img src="imagenes/testimonio1.jpg" alt="">
+      </figure>
+      <div class="texto_abajo">
+        <h3>BILL WILLSON</h3>
+        <P id="verde1">Client</P>
+        <p>Our weekly produce delivery is always full of surprises, and we enjoy finding new ways to use everything. Great service, as always</p>
+      </div>
+    </article>
+    <article class="container_article" id="foto1">
+      <figure>
+        <img src="imagenes/testimonio2.jpg" alt="">
+      </figure>
+      <div class="texto_abajo">
+        <h3>SAMATHA WILLIAMS</h3>
+        <P id="verde1">Client</P>
+        <p>We love the fresh variety you deliver every week, and the challenge of getting creative with new ingredients. Thanks for the excellent service</p>
+      </div>
+    </article>
+    <article class="container_article" id="foto1" >
+      <figure>
+        <img id="foto1" src="imagenes/testimonio3.jpg" alt="">
+      </figure>
+      <div class="texto_abajo">
+        <h3>JAMES SMITH</h3>
+        <P id="verde1">Client</P>
+        <p>Thanks for the amazing variety of fresh produce each week! It’s fun to get creative with the ingredients etting creative with you send</p>
+      </div>
+    </article>
+  </section>
+</section>
+
+<section class="sellos">
+<figure>
+  <img src="imagenes/sello1.png" alt="">
+</figure>
+<figure>
+  <img src="imagenes/sello2.png" alt="">
+</figure>
+<figure>
+  <img src="imagenes/sello3.png" alt="">
+</figure>
+<figure>
+  <img src="imagenes/sello4.png" alt="">
+</figure>
+</section>
+
+<section class="contenedor_informacion">
+  <article class="visita">
+    <div class="visit-our-farm">
+      <h3>Visit Our Farm</h3>
+      <hr>
+          <p>523 Sylvan Ave, 5th Floor
+            Mountain View, CA 94041 USA</p>
+            <br>
+          <p>
+            Weekdays: 08:00am - 08:00pm
+            Weekends: 10:00am - 06:00pm
+      </div>
+  </article>
+  <article class="links">
+    <div class="quick-links">
+      <h3>QUICK-LINKS</h3>
+      <hr>
+      <ul>
+        <li>History</li>
+        <li>FAQ</li>
+        <li>Farmers</li>
+        <li>Events</li>
+        <li>Blog</li>
+      </ul>
+      <ul>
+        <li>Organic Fruits</li>
+        <li>Our Smoothies</li>
+        <li>Fruit Boxes</li>
+        <li>Yoghurts</li>
+      </ul>
+    </div>
+  </article>
+  <article class="informacion_link">
+    <div class="get-in-touch">
+      <h3>Get In Touch</h3>
+      <hr>
+      <p>We are always ready to answer any questions you may have or help you select organic fruits.</p>
+      <div class="buttons">
+        <button class="shop-now">Shop Now</button>
+        <button class="contact-us">Contact Us</button>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section id="modal" class="fondomodal">
+  <div class="contenidomodal">
+    <div class="alineacion_cerrar">
+      <i id="cerrar_modal" class="cerrarmodal fas fa-times-circle"></i>
+    </div>
+    <br>
+    <article class="promociones">
+      <h2>KNOW OUR PRODUCTS</h2>
+      <br>
+      <p id="negro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ab autem
+        amet obcaecati eveniet exercitationem ex sit quaerat. Atque laborum.
+      </p>
+      <br>
+      <article class="videoresponsivo" >
+        <div id="contenedoryoutube">
+          <iframe src="https://www.youtube.com/embed/QDfTPip6GbU?si=EtrmdM6v8v6YFja7" frameborder="0"></iframe>
+        </div>
+      </article>
+    </article>
+  </div>
+</section>
+
+<button id="btn-up">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<footer>
+  <div class="contenedor_tarjetas">
+    <figure>
+      <img src="imagenes/pago1.png" alt="">
+    </figure>
+    <figure>
+      <img src="imagenes/pago2.png" alt="">
+    </figure>
+    <figure>
+      <img src="imagenes/pago3.png" alt="">
+    </figure>
+  </div>
+  <div class="contenedor_redes">
+    <a href="#"><i class="fab fa-facebook-square"></i></a>
+    <a href="#"><i class="fab fa-twitter-square"></i></a>
+    <a href="#"><i class="fab fa-instagram-square"></i></a>
+    <a href="#"><i class="fab fa-youtube-square"></i></a>
+  </div>
+  <div class="contenedor_privacidad">
+    <p>©  2024 Orange.  All rights reserved. Privacy Policy.</p>
+  </div>
+</footer>
+
+
+
+<!-- Animacion menu -->
+
+<script>
+      $("#iconomenu").click(function() {
+      $("#contenedormenu").slideToggle();
+      });
+      </script>
+
+<script>
+      /*Slide con flechas*/
+      $(function () {
+      $(".rslides").responsiveSlides({
+      auto: true,       // Reproducción automática
+      speed: 500,       // Velocidad de transición
+      timeout: 4000,    // Tiempo entre imágenes
+      nav: true,        // Flechas de navegación
+      pause: true,      // Pausar al pasar el mouse
+      prevText: "PREV",    // Texto para la flecha izquierda
+      nextText: "NEXT"     // Texto para la flecha derecha
+      });
+      });
+</script>
+
+        <script src="carrousel.js"></script>
+
+        <script>
+        $(".tab_content").hide();
+        $(".ul.tabs li:first").addClass("active").show();
+        $(".tab_content:first").show();
+
+        $("ul.tabs li").click(function() {
+        $("ul.tabs li").removeClass("active");
+        $(this).addClass("active");
+
+        $(".tab_content").hide();
+
+        var activeTab = $(this).find("a").attr("href");
+        $(activeTab).fadeIn();
+
+        return false; // para evitar que se recargue la página al hacer click en las pestañas
+        });
+        </script>
+
+        <!-- Animacion fancybox -->
+        <script>
+          Fancybox.bind('[data-fancybox="gallery"]', {
+          });
+        </script>
+
+        <script src="script.js"></script>
+
+
+        <!-- funcion acordeon -->
+        <script>
+          $(".acordeon_titulo").click(function() {
+            var t = $(this);
+            var tp = t.next();
+            tp.slideToggle();
+          });
+        </script>
+
+          <!-- funciones javascript -->
+        <script>
+        new WOW().init();
+        </script>
+
+
+  <!-- FUNCION MODAL -->
+  <script>
+
+    $("#boton_modal").click(function () {
+      $("#modal").addClass("mostrar");
+    })
+
+    $("#cerrar_modal").click(function () {
+      $("#modal").removeClass("mostrar");
+    })
+
+    // por tiempo 5 segundos
+    function tiempo() {
+      $("#modal").addClass("mostrar");
+    }
+    setTimeout(tiempo, 4000);
+
+
+    // click por fuera
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        $("#modal").removeClass("mostrar");
+      }
+    };
+
+    // click tecla ESC
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') {
+        $("#modal").removeClass("mostrar");
+      }
+    });
+  </script>
+
+</body>
+</html>

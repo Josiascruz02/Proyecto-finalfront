@@ -1,0 +1,283 @@
+@media screen and (max-width:768px){
+  h1{
+    font-family:'Poppins';
+    font-size: 42px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 10px;
+  }
+  h2{
+    font-family:'Poppins';
+    font-size: 44px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 10px;
+  }
+
+  .top-bar p{
+  display: flex;
+  }
+  .top-bar{
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .carrito i{
+    margin: 0 10px;
+    color: #F6ED68;
+    font-size: 30px;
+  }
+  .carrito i:hover {
+    color: #619f7b;
+  }
+  .carrito p {
+    display: none;
+  }
+
+  /*menu sandwich*/
+  .boxmenu {
+    display: flex;
+  }
+  header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav{
+    position: absolute;
+    display: none;
+    top: 100px;
+    left: 0;
+    width: 50%;
+    height: auto;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+  }
+  nav ul li {
+    width: 100%;
+    border: 0;
+  }
+  nav ul li a {
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+  }
+  nav ul li a:hover {
+    width: 100%;
+    background-color: #619f7b;
+    color: #fff;
+  }
+
+  .slideflechas_info{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    z-index: 10;
+    transform:translate(-50%, -30%);
+    max-width: 300px;
+    max-height: 200px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.5;
+  }
+  .slideflechas_info p{
+    font-family:'Montserrat';
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #151515;
+    line-height: 3;
+  }
+  .slideflechas_info h1{
+    font-family:'Poppins';
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+  }
+  .slideflechas_info h2{
+    font-family:'Poppins';
+    font-size: 22px;
+    font-weight: 300;
+    color: #333;
+    line-height: 5px;
+    letter-spacing: 5px;
+  }
+  .btn_pestaña1 {
+    max-width: 150px;
+    background-color: #619f7b;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 14px;
+  }
+
+  .rslides_nav.prev {
+    width: 60px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .rslides_nav.next {
+    right: 1px;
+    width: 60px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+
+
+  /*parte dos*/
+
+  .contendor_ordena article figure{
+    max-width: 300px;
+    height: 210px;
+    overflow: hidden;
+  }
+  .cont_textoordena{
+    width: 50%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.7;
+  }
+  .cont_textoordena h2{
+    font-family:'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: #9F9E97;
+    line-height: 20px;
+  }
+  .cont_textoordena h3{
+    font-family:'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #9F9E97;
+  }
+  .cont_textoordena p{
+    font-family:'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    color: #151515;
+  }
+  .botonordena{
+    width: 40px;
+    height: 40px;
+  }
+
+
+  /*parte 3 blog*/
+  .contenedor_blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .contenedor_blog figure{
+    max-width: 95%;
+    height: 350px;
+    overflow: hidden;
+  }
+  .contenedor_blog figure img{
+    object-fit: cover;
+    clip-path: inset(9% 0 15% 0);
+  }
+  .articulo_blog{
+    width: 90%;
+  }
+
+
+  /*parte 4 contendor tab pestañas*/
+  .contenedor_prinpestaña{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  .article_pestana1{
+    width: 90%;
+    padding: 10px;
+  }
+
+  .galerygrid{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor_galerygrid {
+    height: 400px;
+    display: grid;
+    margin: 0%;
+    grid-gap:15px;
+    grid-template: repeat(2, auto) / repeat(2, auto);
+    grid-template-areas: "campo naranja" "lago verdura";
+  }
+
+
+  /*contenedor grid ventas con transition*/
+  .seccion_imgs {
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template: repeat(4, auto) / repeat(2, auto);
+    grid-template-areas:
+    "pera piña"
+    "fresa piña"
+    "granada melon"
+    "manzana limon"
+  }
+
+
+
+  /*contenedor carrousel*/
+  .cards_personas{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+  }
+  .contenedor_botones{
+    max-width: 380px;
+    padding: 20px 15px 20px 20px;
+    position: absolute;
+    top: 100%;
+    left:38%;
+    margin: auto;
+  }
+
+}
